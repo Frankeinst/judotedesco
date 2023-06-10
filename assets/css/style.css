@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 92vh;
+}
+
+#parallax1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.parallax-layer {
+    background: url("../images/slid1.jpg") top right no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
